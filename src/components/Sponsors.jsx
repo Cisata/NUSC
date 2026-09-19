@@ -1,0 +1,4 @@
+export default function Sponsors() {
+  return <section className="section section--offwhite sponsors" id="sponsors">
+    <div className="container reveal"><p className="eyebrow"><span className="eyebrow-mark" /> In good company</p><h2>PROUDLY SUPPORTED BY</h2><div className="sponsor-grid"><span>PARTNER<br /><b>01</b></span><span>PARTNER<br /><b>02</b></span><span>PARTNER<br /><b>03</b></span><span>PARTNER<br /><b>04</b></span></div><div className="partner-cta"><div><small>Partnerships</small><h3>Want to partner with NUSC?</h3></div><a className="button button--navy" href="#join">Become a partner <span aria-hidden="true">↗</span></a></div></div></section>;
+}

@@ -1,0 +1,3 @@
+export default function CTASection() {
+  return <section className="final-cta" id="join"><div className="final-cta__glow" /><div className="container final-cta__content reveal"><p className="eyebrow eyebrow--light"><span className="eyebrow-mark" /> Join the movement</p><h2>BE PART OF<br /><em>THE JOURNEY.</em></h2><p>Follow NUSC. Support the team. Rise together.</p><div><a className="button button--red" href="#footer">Follow NUSC <span aria-hidden="true">↗</span></a><a className="button button--ghost" href="#footer">Join us <span aria-hidden="true">↗</span></a></div></div></section>;
+}

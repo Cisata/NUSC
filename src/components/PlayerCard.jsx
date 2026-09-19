@@ -1,0 +1,3 @@
+export default function PlayerCard({ name, position, number, image }) {
+  return <article className="player-card"><div className="player-card__image"><img src={image} alt={`${name} development placeholder portrait`} loading="lazy" />{number && <span>#{number}</span>}</div><div className="player-card__body"><small>{position}</small><h3>{name}</h3><span>Development placeholder</span></div></article>;
+}
